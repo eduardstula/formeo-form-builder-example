@@ -1,0 +1,18 @@
+{
+  "name": "formeo",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "formeo": "latest",
+    "file-loader": "^5.0.2",
+    "webp-hero": "0.0.0-dev.24",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "scripts": {
+    "build:dev": "webpack --watch --info-verbosity verbose --display-error-details --env dev",
+    "build:prod": "webpack --env prod"
+  }
+}
