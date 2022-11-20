@@ -9,7 +9,7 @@
     "file-loader": "^5.0.2",
     "webp-hero": "0.0.0-dev.24",
     "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^3.3.12"
   },
   "scripts": {
     "build:dev": "webpack --watch --info-verbosity verbose --display-error-details --env dev",
